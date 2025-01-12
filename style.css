@@ -1,0 +1,24 @@
+:root {
+  --bg: #1f182b;
+  --text: #fff;
+  --accent: gold;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  /* min-height: 100vh; */
+  margin: 0;
+  display: grid;
+  place-content: center;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  color: blue;
+}
+
+form {
+  --pad: 0.75rem;
+  position: relative;
+}
