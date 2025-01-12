@@ -31,3 +31,15 @@ Propiedades de los elementos dentro del contenedor.
 Los input deben tener obligatoriamente el atributo name para poder usar formData.
 Ver en form.js como recoger los datos de un formulario.
 . Fetch
+
+Uso: promise=fetch(URL,Options)
+
+Las opciones pueden contener:
+
+Campo Descripción
+method: Método HTTP de la petición. Por defecto, GET. Otras opciones: HEAD, POST, etc...
+headers: Cabeceras HTTP. Por defecto, {}.
+body: Cuerpo de la petición HTTP. Puede ser de varios tipos: String, FormData, Blob, etc...
+credentials: Modo de credenciales. Por defecto, omit. Otras opciones: same-origin e include.
+
+La URL puede ser tanto externa como interna.
