@@ -28,6 +28,6 @@ Propiedades de los elementos dentro del contenedor.
 . Display Grid
 
 . Formularios y botones HTML y JS
-Los input deben tener obligatoriamente el atributo name.
+Los input deben tener obligatoriamente el atributo name para poder usar formData.
 Ver en form.js como recoger los datos de un formulario.
 . Fetch
